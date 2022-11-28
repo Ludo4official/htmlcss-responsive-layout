@@ -2,4 +2,294 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-color: #9792e4;
+    --secondary-color: #0084fd;
+    --another-color: #b5ddff;
+  }
+
+header {
+    background-color: var(--secondary-color);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container  {
+    width: 1000px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.special {
+    padding-left: 20px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.cont1 {
+    width: 1000px;
+    min-height: 700px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.inner-main-box {
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.big-column {
+    width: 65%;
+    border-radius: 20px;
+    height: 350px;
+    display: flex;
+    background-color: var(--another-color);
+}
+
+.medium-column {
+    width: 30%;
+    border-radius: 20px;
+    height: 350px;
+    background-color: var(--another-color);
+}
+
+.small-column {
+    width: 30%;
+    border-radius: 20px;
+    height: 350px;
+    background-color: var(--another-color);
+}
+
+.text {
+    width: 60%;
+    height: 350px;
+}
+
+.img {
+    width: 40%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+
+h3 {
+    color: var(--secondary-color);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.special-p {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.apple {
+    background-color: var(--secondary-color);
+    padding: 10px 40px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.apple:hover {
+    background-color: black;
+    color: white;
+}
+
+.phone {
+    width: 250px;
+}
+
+.icon {
+    font-size: 5rem;
+    color: var(--secondary-color);
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+h2 {
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.paragraph {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.bg-color {
+    background-color: var(--primary-color);
+    height: 700px;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.little-container {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.column {
+    width: 50%;
+    height: 600px;
+}
+
+.img-size {
+    width: 350px;
+}
+
+.inner-column {
+    display: flex;
+    justify-content: center;
+}
+
+.planning-title {
+    color: white;
+    padding-top: 50px;
+    text-indent: 50px;
+    font-size: 1.5rem;
+}
+
+.another-p {
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.little-column {
+    width: 50%;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.flexer {
+    display: flex;
+    justify-content: center;
+}
+
+.img-size2 {
+    width: 200px;
+}
+
+.info {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.italic-p {
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon2 {
+    background-color:var(--primary-color) ;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.test {
+    text-align: center;
+}
+
+.main-title {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.card {
+    height: 200px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-card1 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-card2 {
+    width: 70%;
+    height: 100px;
+}
+
+.tester {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.inner-card2 > p {
+    color: white;
+}
+
+.inner-card2 > div {
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
 }
