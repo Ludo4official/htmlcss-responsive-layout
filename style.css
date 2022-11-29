@@ -101,6 +101,7 @@ header {
     border-radius: 20px;
     height: 350px;
     background-color: var(--another-color);
+    text-align: center;
 }
 
 .small-column {
@@ -108,6 +109,7 @@ header {
     border-radius: 20px;
     height: 350px;
     background-color: var(--another-color);
+    text-align: center;
 }
 
 .text {
@@ -154,11 +156,10 @@ h3 {
 .icon {
     font-size: 5rem;
     color: var(--secondary-color);
-    padding-left: 100px;
     padding-top: 20px;
 }
 
-h2 {
+.small.column > h2 {
     color: var(--secondary-color);
     text-align: center;
     padding-top: 20px;
@@ -255,6 +256,7 @@ h2 {
 .main-title {
     color: var(--primary-color);
     font-size: 2.5rem;
+    text-align: center;
 }
 
 .card {
@@ -293,3 +295,184 @@ h2 {
     font-weight: bold;
     padding-top: 20px;
 }
+
+.bg-primary {
+    background-color: var(--primary-color);
+    min-height: 700px;
+}
+
+.title > h2 {
+    color: white;
+    text-align: center;
+}
+
+.card-cont {
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-cont > .cardbis {
+    width: 30%;
+    height: 45%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.cardbis > div {
+    font-size: 3rem;
+    color: var(--primary-color);
+    padding-left: 20px;
+}
+
+.cardbis > h3 {
+    color: var(--primary-color);
+    padding-bottom: 20px;
+}
+
+.cardbis > p {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.cardbis > a {
+    margin-left: 20px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.about-us {
+    margin-top: 30px;
+}
+
+.about-cont {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    min-height: 700px;
+}
+
+.about-col {
+    width: 60%;
+}
+
+.about-col2 {
+    width: 30%;
+}
+
+.about-col > h2 {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.about-col > p {
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.about-col2 > img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-col2 > p {
+   font-size: 2rem;
+   color: var(--primary-color);
+   font-weight: bold;
+   margin: 30px 0;
+}
+
+.about-col2 > a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.free {
+    background-color: var(--primary-color);
+    height: 400px;
+}
+
+.free-cont {
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+}
+
+.free-cont > h4 {
+    color: white;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.free-cont > h3 {
+    color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.free-cont > h2 {
+    color: gold;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.free-cont > p {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 0.75rem;
+}
+
+.free-cont > a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: var(--primary-color);
+    background-color: white;
+    border-radius: 20px;
+}
+
+#span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    height: 250px;
+}
+
+.footer-cont {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-cont > p {
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-span {
+    text-decoration: underline;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+
+
+
+
